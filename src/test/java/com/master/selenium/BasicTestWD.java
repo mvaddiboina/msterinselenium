@@ -9,6 +9,11 @@ import org.testng.annotations.Test;
 
 public class BasicTestWD extends DriverFactory {
 
+	/**
+	 * Google example
+	 * @param searchString
+	 * @throws Exception
+	 */
 	private void googleExampleThatSearchesFor(final String searchString) throws Exception {
 		WebDriver driver = DriverFactory.getDriver();
 		driver.get("http://www.google.com");
